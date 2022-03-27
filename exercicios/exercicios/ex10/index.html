@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Redirecionando</title>
+</head>
+<body>
+    <h1>Vamos criar um link</h1>
+    <h2>link externo</h2>
+    <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/10%20-%20Liga%C3%A7%C3%B5es%20em%20toda%20parte.pdf" target="_blank"rel="external"> acesse essa pag com os pdfs 
+    </a> <br> <!--real é para indicar para o navegador q esse é um conteudo externo -->
+    <a href="https://www.youtube.com/watch?v=LeOVXQDsAIY&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=28"target="_blank"> videos sobre a aula</a>
+    <p>quando acessado  dessa forma, nao continuamos na mesma pagina</p>
+    <h2>link interno</h2>
+    <p>Para acesssar <a href="pag2.html" rel="next">segunda <!-- rel=next, indica para o navegador um ordem-->pagina </a> do meu site</p><!--note que os arquivos estão na mesma pasta-->
+    <p>voce tbm pode ascessar a <a href="noticias/pag3.html">pagina 3</a></p>
+    <h2>link para download</h2>
+<a href="./livro/11 - Imagens dinâmicas, áudios e vídeos.pdf" download="11 - Imagens dinâmicas, áudios e vídeos" type="application/pdf">pdf dos ex</a> <br>
+<p>baixe o arquivo em <a href="livro/logo-html.rar" download="logo-html" type="application/vnd.rar">zip</a></p><!--IANA.ORG , para achar type, do arquivo q vc queira colocar para baixar
+\download = nome do arquivo
+\type varia de arquivo, e ele tem q estar para a realizaçao do download-->
+    
+</body>
+</html>

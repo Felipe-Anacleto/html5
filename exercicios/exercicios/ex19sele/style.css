@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/*
+em html id= em css# (somente um elemento)
+(pode haver 2 id, porém nao no msm documento)
+em html class= em css . (mais de um e emgloba um conjunto)
+*/
+    body{
+        background-color: lightgreen;
+        font: italic 1em arial, sans-serif;
+        text-align: justify;
+    }
+ h1#princ{
+     background-color: azure;
+        text-align: center;
+        text-decoration: none;
+    }
+
+h1{
+    color: blue;
+    text-decoration: underline;
+    text-align: right;
+}
+.base{
+    
+    color: white;
+}
+.inter{
+    color: brown;
+}
+p{
+    text-indent: 40px;
+}
